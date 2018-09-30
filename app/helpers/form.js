@@ -297,7 +297,7 @@ function setEditRecipient(allContacts, currentContact) {
   }
   return {
     newRecipient: true,
-    new: pick(currentContact, ['fullname', 'company', 'phone', 'email']),
+    new: pick(currentContact, ['fullname', 'company', 'phone', 'email', 'address']),
   };
 }
 
